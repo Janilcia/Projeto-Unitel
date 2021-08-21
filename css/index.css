@@ -1,3 +1,40 @@
+/* 
+cor laranja:
+cor roxa: #5c0f8
+
+*/
+
+#menu-principal{
+    background-color: linear-gradient(0deg,#f16223 10%, #f47921 60%);
+}
+
+#menu-principal a{
+font-weight: 300;
+font-size: 13px;
+color: #5c0f8b;
+margin-right: 30px;
+transition:all 0.5s;
+}
+
+#menu-principal a:hover{
+    color: #f16223;
+}
+
+#menu-bottom{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu-bottom a{
+    font-weight: bolder;
+    color:#5c0f8b;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+
+
+
 
 #actions-menu{
     align-items: stretch;
