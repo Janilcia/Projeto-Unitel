@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -15,15 +16,7 @@
   </style>
 
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        
 
     <div class="" id="menu-main">
         <div class="row">
@@ -34,8 +27,8 @@
             </div>
 
             <!-- coluna de navegações -->
-            <div class="col-8 col-lg-8 col-sm-8 bg-primary">
-                <div class="row bg-light" id="menu-principal">
+            <div class="col-8 col-lg-8 col-sm-8 bg-secondary">
+                <div class="row bg-light" id="menu-top">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="container-fluid">
                           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -73,33 +66,127 @@
            
            
             <!-- coluna das ações de pesquisar e login -->
-            <div class="col-12 col-lg-2 col-sm-12 bg-white">
+            <div class="col-12 col-lg-2 col-sm-12 bg-secondary">
                 <div class="row" id="actions-menu">
-                    <div class="col-4 col-lg-6 col-sm-6 bg-danger d-lg-flex actions-menu-item" id="section-search">pesquisar</div>
-                   
-                    <div class="col-8 col-lg-6 col-sm-6 bg-primary d-lg-flex actions-menu-item" id="section-login">Login</div>
+                    <div class="col-4 bg-white d-lg-flex actions-menu-item" id="section-search"><i class="bi bi-search" id="icon-search"></i>
+                   <div class="col-8 bg-danger actions-menu-item" id="section-login"><i class="bi bi-person" id="icon-person"></i>
+                     <h3>My unitel</h3>
+                    </div>
                 </div>
+              </div>
             </div>
 
             
         </div>
-    </div>
+      </div>
 
-    <div class="container-fluid">
-       
-    </div>
+    <div class="" id="banner">
 
-    <div class="container">
-        
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
-
-    <div class="container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img-1.jpeg" class="d-block w-100" alt="imagem1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img-2.jpeg" class="d-block w-100" alt="imagem2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img-3.jpeg" class="d-block w-100" alt="imagem3">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img-4.jpeg" class="d-block w-100" alt="imagem4">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img-5.png" class="d-block w-100" alt="imagem5">
+      </div>
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+      
        
     </div>
 
-    <div class="container">
-    
+
+
+    <!--Parte pós slides-->
+
+    <div class="nt-0" id="extra-navigations">
+      <div class="row mt-0">
+        <div class="col-3 col-lg-3 col-sm-6 extra-navigation-item">
+          <a href=""><i class="bi bi-phone"></i> <span>VOZ</span></a>
+        </div>
+        <div class="col-3 col-lg-3 col-sm-6 extra-navigation-item">
+          <a href=""><i class="bi bi-globe"></i> <span>NET</span></a>
+        </div>
+        <div class="col-3 col-lg-3 col-sm-6 extra-navigation-item">
+          <a href=""><i class="bi bi-handbag"></i> <span>MUNDO UNITEL</span></a>
+        </div>
+        <div class="col-3 col-lg-3 col-sm-6 extra-navigation-item">
+        <a href=""><i class="bi bi-music-note-beamed"></i><span>CLUBE DE PONTOS</span></a>
+      </div>
     </div>
+  </div>
+
+    
+
+    <div class="container" id="conteudo">
+      <div class="row bg-white">
+      <h1>Em destaque</h1>
+    </div>
+      
+    <div class="row bg-white">
+      <div class="col-6 col-lg-8 col-sm-12 p-3 bg-warning"><img src="assets/bg-1.jpeg" alt="imagem card"></div>
+      <div class="col-6 col-lg-4 col-sm-12 p-5 bg-sucess">
+        <h2>PLANOS MAIS DE 1 A 3 DIAS</h2>
+        <p>Não fiques de fora. Liga, entra na Net e manda a mensagem. A Unitel continua...</p>
+        <button type="button" class="btn btn-primary btn-lg">SABE MAIS AQUI</button>
+
+      </div>
+    </div>
+    </div>
+
+   
+    <div class="row">
+      <div class="col-3 col-lg-6 col-sm-12 p-5">
+        <div class="card" id="fluxo">
+              <img src="assets/card-1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+            <h5 class="card-title">PORTAL UNITEL KIDS</h5>
+            <p class="card-text">Unitel Kids é um portal com conteúdos internacionais e nacionais para crianças com uma finalidade...</p>
+            <a href="#" class="btn btn-primary">Sabe mais aqui</a>
+          </div>
+        </div>
+      </div>
+   </div>
+      <div class="col-3 col-lg-6 col-sm-12 p-5">
+        <div class="card" id="focus">
+              <img src="assets/card-2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+            <h5 class="card-title">4G UNITEL</h5>
+            <p class="card-text">Liga-te ao futuro com a velocidade 4G! A velocidade a que se liga ao futuro faz....</p>
+            <a href="#" class="btn btn-primary">Sabe mais aqui</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
 
     <div class="container">
        
@@ -109,89 +196,18 @@
      
     </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img-1.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img-2.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img-3.jpeg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img-4.jpeg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img-5.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+   
+    
 
     
    
     
     <br>
 
-    <div class="card mb-3" style="max-width: 550px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="assets/bg-1jpeg.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="col-md-9">
-            <div class="card-body">
-              <h5 class="card-title">PLANOS MAIS DE 1 A 3 DIAS</h5>
-              <p class="card-text">Não fiques de fora, liga e manda na NET.</p>
-              <p class="card-text"><small class="text-muted">Saiba mais aqui</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>     
-      <br>
       
 
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-                <img src="assets/card-1.jpeng" class="img-thumbnail" alt="...">
-              <h5 class="card-title">PORTAL UNITEL KIDS</h5>
-              <p class="card-text">Unitel Kids é um portal com conteúdos internacionais e nacionais para crianças com uma finalidade...</p>
-              <a href="#" class="btn btn-primary">Sabe mais aqui</a>
-            </div>
-          </div>
-        </div>
-        <br>     
-      <br>
-
-        <div class="col-sm-6 ">
-          <div class="card">
-            <div class="card-body">
-                <img src="assets/card-2.jpeng" class="img-fluid rounded-start" alt="...">
-              <h5 class="card-title">4G UNITEL</h5>
-              <p class="card-text">Liga-te ao futuro com a velocidade 4G! A velocidade a que se liga ao futuro faz....</p>
-              <a href="#" class="btn btn-primary">Sabe mais aqui</a>
-            </div>
-          </div>
-        </div>
-      </div>
+     
+        
 
       <br>     
       <br>
